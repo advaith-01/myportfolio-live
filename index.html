@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AJK | Music</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .contact-underlay-static {
+      width: 100%;
+      text-align: center;
+      margin-top: 60px;
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .contact-underlay-static.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+  <div class="image-row">
+    <div class="img" style="background-image: url('left.jpg'); background-position: center -30px;"></div>
+
+    <div class="img wide video-reveal">
+      <div class="image-cover"></div>
+      <video class="video-under" src="websitevideo.mov" autoplay muted loop controls></video>
+    </div>
+
+    <div class="img" style="background-image: url('right.jpg');"></div>
+
+    <div class="overlay">
+      <h1>AJK</h1>
+    </div>
+
+    <div class="mail-now-button">
+      <a href="mailto:ayjaykay01@gmail.com">
+        <span class="default">Enquiries 📩</span>
+        <span class="hover">Mail now 📩</span>
+      </a>
+    </div>   
+
+    <div class="contact-underlay">
+      <div class="social-icons-inline">
+        <a href="https://youtube.com/yourchannel" target="_blank" title="YouTube">
+  <svg class="youtube-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+    <path d="M549.7 124.1c-6.3-24-25-42.7-48.8-49.4C456.2 64 288 64 288 64S119.8 64 74.1 74.7c-23.8 6.7-42.5 25.4-48.8 49.4C16 168.3 16 256 16 256s0 87.7 10.3 131.9c6.3 24 25 42.7 48.8 49.4C119.8 448 288 448 288 448s168.2 0 212.9-10.7c23.8-6.7 42.5-25.4 48.8-49.4C560 343.7 560 256 560 256s0-87.7-10.3-131.9zM232 336V176l142.7 80L232 336z"/>
+  </svg>
+</a>
+<a href="https://instagram.com/yourhandle" target="_blank" title="Instagram">
+  <svg class="instagram-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+    <path d="M224,202.66A53.34,53.34,0,1,0,277.34,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.72-30.72C296.19,120,224,120,224,120S151.82,120,130.01,130.92a54,54,0,0,0-30.72,30.72C89.91,144.48,80,176.15,80,256s9.91,111.52,19.29,135.29a54,54,0,0,0,30.72,30.72C151.82,408,224,408,224,408s72.18,0,93.99-10.92a54,54,0,0,0,30.72-30.72C358.09,367.52,368,335.85,368,256S358.09,144.48,348.71,161.66ZM224,338a82,82,0,1,1,82-82A82,82,0,0,1,224,338Zm85.4-148.9a19.2,19.2,0,1,1,19.2-19.2A19.2,19.2,0,0,1,309.4,189.1Z"/>
+  </svg>
+</a>
+<a href="https://open.spotify.com/yourprofile" target="_blank" title="Spotify">
+  <svg class="spotify-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+    <path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm101 366c-4 7-13 9-20 5-55-34-124-41-207-23-8 2-16-3-18-11s3-16 11-18c90-20 169-12 232 25 7 4 9 13 5 21zm28-70c-5 8-16 11-25 6-63-40-160-51-234-28-9 3-19-2-21-11s2-19 11-21c88-26 195-13 267 33 8 5 11 16 6 25zm3-76C345 191 240 181 148 209c-10 3-21-2-24-13s3-21 13-24c108-32 226-20 305 35 9 6 11 18 5 27-6 8-18 11-27 5z"/>
+  </svg>
+</a>
+      </div>
+    </div>
+  </div>
+
+  <footer id="expanding-footer">
+    <div class="footer-details">
+      <div class="footer-column">
+        <h4 class="footer-heading">Places</h4>
+        <p>Melbourne</p>
+        <p>India</p>
+      </div>
+      <div class="footer-column">
+        <h4 class="footer-heading">Music Languages</h4>
+        <p>English</p>
+        <p>Hindi</p>
+        <p>Malayalam</p>
+        <p>Tamil</p>
+      </div>
+      <div class="footer-column">
+        <h4 class="footer-heading">Music Type</h4>
+        <p>Indie Songs</p>
+        <p>Pop</p>
+        <p>Melodies</p>
+      </div>
+    </div>
+    <div class="footer-main">
+      © 2025 AJK Music
+    </div>
+  </footer>
+  
+  
+
+  <section class="info-section">
+    <div class="info-container">
+      <div class="info-text left-text">
+        <h2>About </h2>
+        <p>From soulful melodies to rock performances, Advaith blends raw emotion and storytelling into a journey that lingers beyond the final note. His sound is a reflection of passion and the depths of pain, brought to life for those who seek authenticity in every beat.</p>
+      </div>
+      <div class="info-image">
+        <img src="Landingpagepic.jpg" alt="AJK performing" />
+      </div>
+      <div class="info-text right-text">
+        <h2>Live Shows</h2>
+        <p>From open mics across India to vibrant college stages, theperformances carry raw emotional energy that connects with every audience. Whether it’s an acoustic set or a full-blown show, his presence leaves a lasting impression.</p>
+      </div>
+    </div>
+    <div class="contact-underlay-static" id="delayed-icons">
+      <div class="social-icons-inline">
+        <a href="https://youtube.com/yourchannel" target="_blank" title="YouTube">
+          <svg class="youtube-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+            <path d="M549.7 124.1c-6.3-24-25-42.7-48.8-49.4C456.2 64 288 64 288 64S119.8 64 74.1 74.7c-23.8 6.7-42.5 25.4-48.8 49.4C16 168.3 16 256 16 256s0 87.7 10.3 131.9c6.3 24 25 42.7 48.8 49.4C119.8 448 288 448 288 448s168.2 0 212.9-10.7c23.8-6.7 42.5-25.4 48.8-49.4C560 343.7 560 256 560 256s0-87.7-10.3-131.9zM232 336V176l142.7 80L232 336z"/>
+          </svg>
+        </a>
+        <a href="https://instagram.com/yourhandle" target="_blank" title="Instagram">
+  <svg class="instagram-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+    <path d="M224,202.66A53.34,53.34,0,1,0,277.34,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.72-30.72C296.19,120,224,120,224,120S151.82,120,130.01,130.92a54,54,0,0,0-30.72,30.72C89.91,144.48,80,176.15,80,256s9.91,111.52,19.29,135.29a54,54,0,0,0,30.72,30.72C151.82,408,224,408,224,408s72.18,0,93.99-10.92a54,54,0,0,0,30.72-30.72C358.09,367.52,368,335.85,368,256S358.09,144.48,348.71,161.66ZM224,338a82,82,0,1,1,82-82A82,82,0,0,1,224,338Zm85.4-148.9a19.2,19.2,0,1,1,19.2-19.2A19.2,19.2,0,0,1,309.4,189.1Z"/>
+  </svg>
+</a>
+<a href="https://open.spotify.com/yourprofile" target="_blank" title="Spotify">
+  <svg class="spotify-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+    <path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm101 366c-4 7-13 9-20 5-55-34-124-41-207-23-8 2-16-3-18-11s3-16 11-18c90-20 169-12 232 25 7 4 9 13 5 21zm28-70c-5 8-16 11-25 6-63-40-160-51-234-28-9 3-19-2-21-11s2-19 11-21c88-26 195-13 267 33 8 5 11 16 6 25zm3-76C345 191 240 181 148 209c-10 3-21-2-24-13s3-21 13-24c108-32 226-20 305 35 9 6 11 18 5 27-6 8-18 11-27 5z"/>
+  </svg>
+</a>
+</div>
+<div class="call-now-button">
+  <a href="tel:+614XXXXXXXX">
+    <span class="default">Let’s Connect!!</span>
+    <span class="hover"> 📞 045 209 856 </span>
+  </a>
+</div>
+    </div>
+  </section>
+
+<script>
+  let triggeredIcons = false;
+  let lastScrollPercent = 0;
+  let footerTextVisible = true;
+  
+  window.addEventListener('scroll', () => {
+    const scrollTop = window.scrollY;
+    const windowHeight = window.innerHeight;
+    const docHeight = document.body.scrollHeight;
+    const scrollPercent = (scrollTop + windowHeight) / docHeight;
+  
+    const icons = document.getElementById('delayed-icons');
+    const footerText = document.querySelector('.footer-main');
+    const footer = document.getElementById('expanding-footer');
+  
+    // Smoothly Expand or Shrink Footer
+    if (scrollPercent >= 0.97) {
+      footer?.classList.add('expanded');
+    } else if (scrollPercent < 0.94) { 
+      footer?.classList.remove('expanded');
+    }
+  
+    // Handle Footer Text Visibility Separately
+    if (footer.classList.contains('expanded')) {
+      footerText.style.opacity = '1';
+      footerText.style.visibility = 'visible';
+      footerText.style.transition = 'opacity 0.6s ease';
+    } else {
+      if (scrollPercent >= 0.845 && scrollPercent < 0.97) {
+        footerText.style.opacity = '0';
+        footerText.style.visibility = 'hidden';
+        footerText.style.transition = 'opacity 0.4s ease';
+        footerTextVisible = false;
+      } else if (scrollPercent < 0.845) {
+        if (!footerTextVisible) {
+          footerTextVisible = true;
+          footerText.style.visibility = 'visible';
+          footerText.style.opacity = '1';
+          footerText.style.transition = 'opacity 0.8s ease';
+        }
+      } else {
+        footerText.style.opacity = '1';
+        footerText.style.visibility = 'visible';
+        footerText.style.transition = 'opacity 0.6s ease';
+      }
+    }
+  
+    // Show social icons at 84.5%
+    if (scrollPercent >= 0.845) {
+      if (!triggeredIcons) {
+        triggeredIcons = true;
+        setTimeout(() => {
+          icons?.classList.add('visible');
+        }, 600);
+      }
+    } else {
+      triggeredIcons = false;
+      icons?.classList.remove('visible');
+    }
+  });
+</script>
+
+
+  
+</body>
+</html>
+
+
+
+
