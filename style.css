@@ -253,11 +253,12 @@ footer.expanded .footer-details {
   transition: all 0.6s ease;
   text-align: center;
   transform: translateX(0);
-  padding-right: 12px;
+  padding-right: 6px;
 }
 
 #expanding-footer.expanded .footer-main {
   transform: translateX(20px);
+  padding-right: 24px;
 }
 
 .footer-column {
@@ -476,12 +477,14 @@ footer.expanded .footer-details {
     padding-left: 0px;
   }
   .footer-column:nth-child(1) {
-    margin-left: -20px; /* shift slightly to the left */
+    margin-left: -24px; /* shift slightly to the left */
   }
 
-  .footer-column:nth-child(2),
+  .footer-column:nth-child(2){
+    margin-left: 8px; /* shift slightly to the right */
+  }
   .footer-column:nth-child(3) {
-    margin-left: 12px; /* shift slightly to the right */
+    margin-left: 10px; /* shift slightly to the right */
   }
 }
 
@@ -568,5 +571,37 @@ footer.expanded .footer-details {
   }
 }
 
+@media (max-width: 420px) {
+  .info-container {
+    position: relative;
+    left: -14px; /* adjust this value to control the shift */
+  }
+}
 
+@media (min-width: 435px) and (max-width: 597px) {
+  .info-container {
+    position: relative;
+    left: 11px; /* Adjust this to shift more or less */
+  }
+}
 
+@media (min-width: 601px) and (max-width: 650px) {
+  .info-container {
+    position: relative;
+    left: -20px; /* Negative pushes it left, positive pushes it right */
+  }
+}
+
+@media (min-width: 625px) and (max-width: 650px) {
+  .info-container {
+    position: relative;
+    left: -10px; /* Negative pushes it left, positive pushes it right */
+  }
+}
+
+@media (min-width: 1016px) {
+  .info-container {
+    position: relative;
+    left: -16px; /* Negative pushes it left, positive pushes it right */
+  }
+}
